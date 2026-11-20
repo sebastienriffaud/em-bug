@@ -18,21 +18,21 @@ commuting multiplicative noise.
 
 ## Contents
 
-`test_rank.m` evaluates the strong-error convergence with respect to the rank.
-`test_timestep.m` evaluates the strong-error convergence with respect to the time step.
-`test_particles.m` evaluates the mean and second-moment errors with respect to the number of particles.
-`config.m` provides default experiment parameters.
-`setup.m`, `method_list.m` construct the benchmark and select the integrators.
-`bug_standard.m`, `bug_closed.m` compute the low-rank BUG solution.
-`euler_maruyama.m` computes the full Euler--Maruyama solution.
-`ou.m`, `multiplicative.m` construct the drift, noise, and closed moment operators.
-`initial_ou.m`, `initial_multiplicative.m` provide the initial ensembles.
-`noise_directions_ou.m`, `noise_directions_multiplicative.m` construct the noise-generated directions.
-`exact_solution_ou.m`, `exact_solution_multiplicative.m` provide the exact solutions.
-`exact_moments_ou.m`, `exact_moments_multiplicative.m` provide the exact final mean and non-centered second moment.
-`truncate.m` compresses a low-rank factorization to a prescribed rank.
-`aggregate_increments.m` couples the fine- and coarse-grid Brownian increments.
-`strong_error.m` computes the maximum-in-time root-mean-square strong error.
+- `test_rank.m` evaluates the strong-error convergence with respect to the rank.
+- `test_timestep.m` evaluates the strong-error convergence with respect to the time step.
+- `test_particles.m` evaluates the mean and second-moment errors with respect to the number of particles.
+- `config.m` provides default experiment parameters.
+- `setup.m`, `method_list.m` construct the benchmark and select the integrators.
+- `bug_standard.m`, `bug_closed.m` compute the low-rank BUG solution.
+- `euler_maruyama.m` computes the full Euler--Maruyama solution.
+- `ou.m`, `multiplicative.m` construct the drift, noise, and closed moment operators.
+- `initial_ou.m`, `initial_multiplicative.m` provide the initial ensembles.
+- `noise_directions_ou.m`, `noise_directions_multiplicative.m` construct the noise-generated directions.
+- `exact_solution_ou.m`, `exact_solution_multiplicative.m` provide the exact solutions.
+- `exact_moments_ou.m`, `exact_moments_multiplicative.m` provide the exact final mean and non-centered second moment.
+- `truncate.m` compresses a low-rank factorization to a prescribed rank.
+- `aggregate_increments.m` couples the fine- and coarse-grid Brownian increments.
+- `strong_error.m` computes the maximum-in-time root-mean-square strong error.
 
 
 ## Requirements
