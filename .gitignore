@@ -1,0 +1,12 @@
+# MATLAB editor and compiled/generated files
+*.asv
+*.m~
+*.mex*
+*.fig
+*.mat
+*.autosave
+
+# Operating system files and archive metadata
+.DS_Store
+Thumbs.db
+__MACOSX/
